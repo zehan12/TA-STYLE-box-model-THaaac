@@ -1,0 +1,129 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*==================================Reset CSS End========================================*/
+
+.top{
+    background-color: #2d3040;
+    text-align: center;
+    padding: 5px;
+}
+.heading1{
+    font-family: Helvetica, sans-serif;
+    font-size: 28px;
+    color: #d5d6d9;
+}
+.nav-container{
+    padding: 20px;
+}
+.letter{
+    display: inline-block;
+    color:  rgb(119,121,121);
+    font-family: Helvetica, sans-serif;
+    padding: 10px;
+}
+.first-container {
+    padding: 100px
+}
+.heading2{
+    font-family: Helvetica, sans-serif;
+    color:#d5d6d9;
+    font-size: 33px;
+    text-align: left;
+}
+.line{
+    border:solid 1px rgb(119,121,121);
+    margin: 20px 0;
+}
+.para{
+    color: rgb(119,121,121);
+    text-align: left;
+    font-family: Helvetica, sans-serif;
+    margin: 40px 0;
+}
+.article1{
+    background-color: #4c5c96;
+}
+.subhead{
+    color: white;
+    font-size: 16px;
+    font-family: Helvetica, sans-serif;
+    letter-spacing: 3px;
+}
+.circle{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    padding: 10px 0;
+}
+.container2{
+    padding: 40px 100px;
+}
+.para-second{
+    color:whitesmoke;
+    font-family: Helvetica, sans-serif;
+    line-height: 30px;
+}
+.icon{
+    color: whitesmoke;
+    font-family: Helvetica, sans-serif;
+    padding: 20px 0;
+}
+.bottom{
+    background-color: #2d3040;
+    font-family: Helvetica, sans-serif;
+    color:rgb(119,121,121);
+    text-align:left;
+    padding: 30px 100px 30px;
+}
+.article2{
+    background-color:  #45558d;
+}
+.article3{
+    background-color: #3f4e85;
+}
