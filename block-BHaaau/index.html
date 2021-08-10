@@ -13,3 +13,64 @@
 - Using CSS resets is necessary.
 - Use semantic tags and keep the nesting and indentation proper.
 --->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF=8">
+  <title>Box Model Exercise 6</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <main class="wraper">
+    <section>
+      <h1 class="heading1 fontstyle">The Box Model, Box-sizing & Box-<br>Shadow </h1><br>
+      <br>
+      <div></div><br>
+      <h2 class="heading2 fontstyle">Exercise1</h2>
+      <div class="line"></div>
+      <div class="container">
+        <div class="box1"> <span class="box2"> </span></div>
+        <br>
+        <div class="circle green"><span class="content"></span>content</div>
+        <div class="circle blue"><span class="content"></span>padding</div>
+        <div class="circle black"><span class="content"></span>Border</div>
+        <div class="circle red"><span class="content"></span>Margin</div>
+      </div>
+    </section>
+    <div class="line"></div>
+
+    <section class="boxsection">
+      <h2 class="heading2 style">Exercise 2</h2>
+      <p class="subhead">no border on these boxes.</p>
+      <span class="container1">
+        <div class="greybox"></div><!-- to remove space
+        --><div class="greybox"></div><!-- 
+        --><div class="greybox"></div>
+      </span>
+    </section>
+    <div class="line"></div>
+
+    <section class="boxsection">
+      <p class="subhead">1px border on these boxes</p>
+      <div class="container1">
+        <div class="greybox border"></div><!-- to remove space
+        --><div class="greybox border"></div><!--
+        --><div class="greybox border"></div>
+      </div>
+    </section>
+    <div class="line"></div>
+
+    <section class="boxsection">
+      <p class="subhead"> 1px border on these boxes but they are in same line</p>
+      <span class="container1">
+        <div class="greybox border boxsizing"></div><!-- to remove space
+        --><div class="greybox border boxsizing"></div><!--
+        --><div class="greybox border boxsizing"></div>
+      </span>
+    </section>
+  </main>
+</body>
+
+</html>
